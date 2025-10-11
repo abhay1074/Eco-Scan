@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "Amazon Eco-Scan AI",
+  "version": "1.0",
+  "description": "Analyze Amazon product pages for carbon emission and eco-friendly scores using Gemini Vision AI.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://generativelanguage.googleapis.com/*",
+    "*://*.amazon.com/*",
+    "*://*.amazon.co.uk/*",
+    "*://*.amazon.de/*"
+  ],
+  "background": {
+    "service_worker": "background/index.js"
+  },
+  "action": {
+    "default_icon": { 
+      "16": "asset/logo.png",
+      "48": "asset/logo.png",
+      "128": "asset/logo.png"
+    },
+    "default_title": "Activate Eco-Scan"
+  },
+  "icons": {
+    "16": "asset/logo.png",
+    "48": "asset/logo.png",
+    "128": "asset/logo.png"
+  }
+}
