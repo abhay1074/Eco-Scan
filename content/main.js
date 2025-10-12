@@ -1,11 +1,7 @@
 // content/main.js
 
 (function() {
-  
-  /*******************************************************
-   * 1. PROMPT UI CLASS
-   *******************************************************/
-  
+
   class PromptUi {
     constructor(modalTitle) {
       this.modalHTML = `
@@ -198,9 +194,7 @@
     }
   }
   
-  /*******************************************************
-   * 2. PROMPT HANDLER CLASS
-   *******************************************************/
+
   
   class PromptHandler {
     constructor(message) {
@@ -294,10 +288,7 @@
       );
     }
   }
-  
-  /*******************************************************
-   * 3. MAIN LISTENER
-   *******************************************************/
+
   
   // Listen for messages from the background script
   chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
