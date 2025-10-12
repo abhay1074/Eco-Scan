@@ -2,9 +2,8 @@
 
 const DEFAULT_GEMINI_ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent";
 
-// 🚨🚨 CRITICAL: PLACE YOUR KEY HERE TO BYPASS POPUP CONFIGURATION 🚨🚨
-// The key has been inserted as requested.
-const HARDCODED_GEMINI_KEY = 'AIzaSyCYk7QD3z8XAG2Y5nbtv5GLS_vuY2iMzyw'; 
+
+const HARDCODED_GEMINI_KEY = 'API_KEY'; 
 const DEFAULT_KEY_PLACEHOLDER = '**********';
 
 // Helper function to dynamically inject ALL necessary content scripts
