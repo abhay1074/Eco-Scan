@@ -4,7 +4,7 @@ const DEFAULT_GEMINI_ENDPOINT = "https://generativelanguage.googleapis.com/v1bet
 
 
 const HARDCODED_GEMINI_KEY = 'API_KEY'; 
-const DEFAULT_KEY_PLACEHOLDER = '**********';
+const DEFAULT_KEY_PLACEHOLDER = 'API_KEY';
 
 // Helper function to dynamically inject ALL necessary content scripts
 async function injectContentScripts(tabId) {
